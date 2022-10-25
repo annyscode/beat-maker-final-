@@ -1,0 +1,36 @@
+{
+    "name": "beat maker! final :)",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "note-lookup": "pub:71024-72061-27653-93031",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.41",
+        "tag": "v1.4.41",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/ed3803974f2bd6ba24ac93feedbd9b7f508e395d",
+        "target": "1.10.36",
+        "pxt": "6.12.22",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
